@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Pic Preview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<b style="font-size: 20px;"><i>Preview your images before uploading them.</i></b>
 
-## Available Scripts
+### Application Overview
 
-In the project directory, you can run:
+Pic Preview is a demo app that allows users to preview the image they would like to upload before actually uploading it.
 
-### `npm start`
+### Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p>
+• Users can upload images from their computer to the Pic Preview API.<br>
+• The preview feature allows users to see what the image looks like before they upload it.
+• Users can change the chosen image as many times as they would like before uploading and preview each selection. 
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Technologies Used
 
-### `npm test`
+![HTML5](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Git](https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/VSCode%20-%23007ACC.svg?&style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Running This Application
 
-### `npm run build`
+#### First, a note about authentication...
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This application uses mock authentication which is purely for demonstration purposes. Therefore the login and registration code written here is completely insecure and would never be implemented in a professional application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Now that we've cleared that up...
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone this repository and change to the directory in the terminal.
 
-### `npm run eject`
+```sh
+git clone git@github.com:heymonicakay/wideRetriever.git
+cd wideRetriever
+```
+2. Access the data.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<a href="https://www.github.com/heymonicakay/wideRetriever-server" target="_blank"><img src="https://img.shields.io/badge/Click_here%20-%236ae689.svg?&style=for-the-badge&&logoColor=white" alt="Wide Retriever Server Repo" style="height: auto !important; width: auto !important;" /></a>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Launch the client.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```sh
+    npm install
+    npm start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Demo User Credentials
 
-## Learn More
+<p>
+Username: <i>demo</i>
+<br>
+Password: <i>demo</i>
+</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### ERD
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src="./erd.png" alt="">
 
-### Code Splitting
+#### Created by Monica Kay
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="https://www.github.com/heymonicakay/" target="_blank"><img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white" alt="Monica Kay GitHub" style="height: auto !important;width: auto !important;" /></a> <a href="https://www.linkedin.com/in/heymonicakay/" target="_blank"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="Monica Kay LinkedIn" style="height: auto !important;width: auto !important;" /></a>
